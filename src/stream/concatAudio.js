@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Async Function to get a random file from a path
 module.exports = (extensions, path) => {
-  // Find al of our files with the extensions
+  // Find all of our files with the extensions
   let allFiles = [];
   const finalPath = './live-stream-radio/final/finalSong.mp3';
   extensions.forEach(extension => {
